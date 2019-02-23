@@ -1,0 +1,12 @@
+- account: work
+  imap: imap.domain.com
+  smtp: smtp.domain.com
+  username: user@domain.com
+  password: secret!
+
+- account: personal
+  imap: imap.domain.com
+  smtp: smtp.domain.com
+  username: user@domain.com
+  password: secret!
+
