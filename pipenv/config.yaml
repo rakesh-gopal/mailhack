@@ -1,3 +1,4 @@
+folder: ~/Documents/mailhack
 - account: work
   imap: imap.domain.com
   smtp: smtp.domain.com
