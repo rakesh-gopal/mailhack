@@ -54,3 +54,5 @@ def process_mail(start_days_ago=0, num_days=10):
                 eml_file.write(email_bytes)
             email_message = email.message_from_bytes(email_bytes)
             print(uid, email_message.get('From'), email_message.get('Subject'))
+
+    im.logout()
