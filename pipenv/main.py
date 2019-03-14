@@ -33,6 +33,8 @@ def get_imap_client(host, port, username, password):
 def process_mail(start_days_ago=0, num_days=10):
     im = get_imap_client(CONFIG.host, CONFIG.port, CONFIG.username, CONFIG.password)
     im.select_folder('INBOX')
+    im.select_folder('important')
+    im.select_folder('2014')
 
     start_date = datetime.date.today() - datetime.timedelta(days=start_days_ago - 1)
 
